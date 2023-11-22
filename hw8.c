@@ -4,7 +4,7 @@
 double StandardDeviation(double number[], int size) {
 	double sum1 = 0.0;
 	double sum2 = 0.0;
-	double mo, mi;
+	double mo;
 	for (int i = 0; i < size; i++) {
 		sum1 += number[i];
 	}
